@@ -1,0 +1,46 @@
+--- 
+buzzwords: |+
+  data: {"items":[{"label":"Paradigm shift","value":14},{"label":"Enterprise","value":6},{"label":"Streamlininess","value":10},{"label":"Synergy","value":10},{"label":"Web 2.0","value":11},{"label":"Turn-key","value":12},{"label":"Pivoting","value":8},{"label":"Exit strategy","value":7},{"label":"Leverage","value":6}],"id":"buzzwords","updatedAt":1387770063}
+  
+convergence: |+
+  data: {"points":[{"x":85,"y":25},{"x":86,"y":47},{"x":87,"y":48},{"x":88,"y":4},{"x":89,"y":25},{"x":90,"y":21},{"x":91,"y":36},{"x":92,"y":23},{"x":93,"y":22},{"x":94,"y":3}],"id":"convergence","updatedAt":1387770063}
+  
+valuation: |+
+  data: {"current":46,"last":4,"id":"valuation","updatedAt":1387770063}
+  
+karma: |+
+  data: {"current":148427,"last":109428,"id":"karma","updatedAt":1387770063}
+  
+synergy: |+
+  data: {"value":90,"id":"synergy","updatedAt":1387770063}
+  
+hooker: |+
+  data: {"items":[{"label":"LOGGING","value":44},{"label":"ROTATOR","value":26}],"id":"hooker","updatedAt":1379002325}
+  
+delphireporter: |+
+  data: {"items":[{"label":"Statements","value":57},{"label":"Branches","value":43},{"label":"Functions","value":53},{"label":"Lines","value":58}],"id":"delphireporter","updatedAt":1379002325}
+  
+pingd: |+
+  data: {"items":[{"label":"IPADDR","value":88},{"label":"PING","value":100}],"id":"pingd","updatedAt":1379002325}
+  
+minerva: |+
+  data: {"items":[{"label":"HELPERS","value":72},{"label":"server","value":81}],"id":"minerva","updatedAt":1379002325}
+  
+vortex: |+
+  data: {"items":[{"label":"core-Instructions","value":35},{"label":"core-Branches","value":19},{"label":"Controller-Instructions","value":79},{"label":"Controller-Branches","value":52},{"label":"apache_thrift_app-Instructions","value":65},{"label":"apache_thrift_app-Branches","value":38},{"label":"thrift-app-Instructions","value":64},{"label":"thrift-app-Branches","value":39}],"id":"vortex","updatedAt":1379002325}
+  
+rookery: |+
+  data: {"items":[{"label":"core-Instructions","value":58},{"label":"core-Branches","value":34}],"id":"rookery","updatedAt":1379002325}
+  
+istanbul: |+
+  data: {"items":[{"label":"Statements","value":51},{"label":"Branches","value":34},{"label":"Functions","value":45},{"label":"Lines","value":53}],"id":"istanbul","updatedAt":1387768375}
+  
+go: |+
+  data: {"items":[{"label":"HELPERS","value":69},{"label":"SERVER","value":82}],"id":"go","updatedAt":1387768375}
+  
+jacoco: |+
+  data: {"items":[{"label":"TestApp-Instructions","value":79},{"label":"TestApp-Branches","value":52}],"id":"jacoco","updatedAt":1387768375}
+  
+scct: |+
+  data: {"items":[{"label":"CONTROLLER","value":47}],"id":"scct","updatedAt":1387767849}
+  

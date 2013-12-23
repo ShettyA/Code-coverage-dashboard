@@ -1,0 +1,347 @@
+
+<html>
+    <head>
+        <title>Coverage Report</title>
+        
+        <style type="text/css">
+            body { background-color: #fff; }
+            table {
+                margin-left: 10px;
+                border-collapse: collapse;
+            }
+            td { 
+                background-color: #fff; 
+                padding: 2px;
+            }
+            table.overview td {
+                padding-right: 20px;
+            }
+            td.percent, td.linecount { text-align: right; }
+            div.package, #totalcov { 
+                position: fixed;
+                color: #fff;
+                background-color: #375eab; 
+                font-size: 16px;
+                font-weight: bold;
+                padding: 10px;
+                border-radius: 5px 5px 5px 5px;
+            }
+            div.package, #totalcov { 
+                float: right; 
+                right: 10px;
+            }
+            #totalcov { 
+                background-color: #fff;
+                color: #000;
+                border: 1px solid #375eab;
+                clear: both;
+            }
+            div.package {
+                top: 10px;
+            }
+            #doctitle { 
+                background-color: #fff; 
+                font-size: 24px;
+                margin-top: 20px;
+                margin-left: 10px;
+                color: #375eab;
+                font-weight: bold;
+            }
+            #about {
+                margin-left: 18px;
+                font-size: 10px;
+            }
+            table tr:last-child td {
+                font-weight: bold;
+            }
+            .functitle, .funcname { 
+                text-align: center; 
+                font-size: 20px; 
+                font-weight: bold; 
+                color: 375eab; 
+            }
+            .funcname {
+                text-align: left;
+                margin-top: 20px;
+                margin-left: 10px;
+                margin-bottom: 20px;
+                padding: 2px 5px 5px;
+                background-color: #e0ebf5;
+            }
+            table.listing {
+                margin-left: 10px;
+            }
+            table.listing td {
+                padding: 0px;
+                font-size: 12px;
+                background-color: #eee; 
+                vertical-align: top;
+                padding-left: 10px;
+                border-bottom: 1px solid #fff;
+            }
+            table.listing td:first-child {
+                text-align: right;
+                font-weight: bold;
+                vertical-align: center;
+            }
+            table.listing tr.miss td {
+                background-color: #FFBBB8;
+            }
+            table.listing tr:last-child td {
+                font-weight: normal;
+                color: #000;
+            }
+            table.listing tr:last-child td:first-child {
+                font-weight: bold;
+            }
+            .info {
+                margin-left: 10px;
+            }
+            .info code {
+            }
+            pre { margin: 1px; }
+            pre.cmd { 
+                background-color: #e9e9e9;
+                border-radius: 5px 5px 5px 5px;
+                padding: 10px;
+                margin: 20px;
+                line-height: 18px;
+                font-size; 14px;
+            }
+            a { 
+                text-decoration: none; 
+                color: #375eab;
+            }
+            a:hover { text-decoration: underline; }
+            p { margin-left: 10px; }
+        </style>
+        
+    </head>
+    <body>
+        <div id="doctitle">Coverage Report</div>
+    <div id="about">Generated on 31 Jul 13 16:41 -0700 with <a href="https://github.com/matm/gocov-html">gocov-html</a></div><div class="package">helpers</div>
+<div id="totalcov">helpers</div>
+<div class="funcname">Overview</div><p>This is a coverage report created after analysis of the <code>helpers</code> package. It 
+        has been generated with the following command:</p><pre class="cmd">gocov test helpers | gocov-html</pre>        <p>Here are the stats. Please select a function name to view its implementation and see what's left for testing.</p><table class="overview">
+<tr id="s_fn_ValidateV2TimeRange"><td><code><a href="#fn_ValidateV2TimeRange">ValidateV2TimeRange(...)</a></code></td><td><code>helpers/validator.go</code></td><td class="percent"><code>100.00%</code></td><td class="linecount"><code>17/17</code></td></tr>
+<tr id="s_fn_ValidateV2Drilldowns"><td><code><a href="#fn_ValidateV2Drilldowns">ValidateV2Drilldowns(...)</a></code></td><td><code>helpers/validator.go</code></td><td class="percent"><code>100.00%</code></td><td class="linecount"><code>12/12</code></td></tr>
+<tr id="s_fn_FormatPerformanceResults"><td><code><a href="#fn_FormatPerformanceResults">FormatPerformanceResults(...)</a></code></td><td><code>helpers/format_results.go</code></td><td class="percent"><code>100.00%</code></td><td class="linecount"><code>11/11</code></td></tr>
+<tr id="s_fn_ValidateV2ReportType"><td><code><a href="#fn_ValidateV2ReportType">ValidateV2ReportType(...)</a></code></td><td><code>helpers/validator.go</code></td><td class="percent"><code>100.00%</code></td><td class="linecount"><code>7/7</code></td></tr>
+<tr id="s_fn_ValidateV2Dimensions"><td><code><a href="#fn_ValidateV2Dimensions">ValidateV2Dimensions(...)</a></code></td><td><code>helpers/validator.go</code></td><td class="percent"><code>93.33%</code></td><td class="linecount"><code>14/15</code></td></tr>
+<tr id="s_fn_ValidatePcodeOrId"><td><code><a href="#fn_ValidatePcodeOrId">ValidatePcodeOrId(...)</a></code></td><td><code>helpers/validator.go</code></td><td class="percent"><code>87.50%</code></td><td class="linecount"><code>7/8</code></td></tr>
+<tr id="s_fn_AuthorizeAsset"><td><code><a href="#fn_AuthorizeAsset">AuthorizeAsset(...)</a></code></td><td><code>helpers/authorization.go</code></td><td class="percent"><code>0.00%</code></td><td class="linecount"><code>0/6</code></td></tr>
+<tr id="s_fn_PcodeFromParams"><td><code><a href="#fn_PcodeFromParams">PcodeFromParams(...)</a></code></td><td><code>helpers/authorization.go</code></td><td class="percent"><code>0.00%</code></td><td class="linecount"><code>0/6</code></td></tr>
+<tr id="s_fn_ApiKeyCheck"><td><code><a href="#fn_ApiKeyCheck">ApiKeyCheck(...)</a></code></td><td><code>helpers/authorization.go</code></td><td class="percent"><code>0.00%</code></td><td class="linecount"><code>0/6</code></td></tr>
+<tr id="s_fn_SuperuserCheck"><td><code><a href="#fn_SuperuserCheck">SuperuserCheck(...)</a></code></td><td><code>helpers/authorization.go</code></td><td class="percent"><code>0.00%</code></td><td class="linecount"><code>0/5</code></td></tr>
+<tr id="s_fn_ValidateV2Category"><td><code><a href="#fn_ValidateV2Category">ValidateV2Category(...)</a></code></td><td><code>helpers/validator.go</code></td><td class="percent"><code>0.00%</code></td><td class="linecount"><code>0/3</code></td></tr>
+<tr id="s_fn_JsonError"><td><code><a href="#fn_JsonError">JsonError(...)</a></code></td><td><code>helpers/format_results.go</code></td><td class="percent"><code>0.00%</code></td><td class="linecount"><code>0/2</code></td></tr>
+<tr><td colspan="2"><code>helpers</code></td><td class="percent"><code>69.39%</code></td><td class="linecount"><code>68/98</code></td></tr>
+</table>
+
+<div class="funcname" id="fn_ValidateV2TimeRange">func ValidateV2TimeRange</div><div class="info"><a href="#s_fn_ValidateV2TimeRange">Back</a><p>In <code>/Users/repos/goApp/src/helpers/validator.go</code>:</p></div><table class="listing">
+<tr><td>154</td><td><code><pre>func ValidateV2TimeRange(dateRange string) (dates []string, err error) {</pre></code></td></tr><tr><td>155</td><td><code><pre>        if dateRange == "" {</pre></code></td></tr><tr><td>156</td><td><code><pre>                return nil, errors.New("Empty date range")</pre></code></td></tr><tr><td>157</td><td><code><pre>        }</pre></code></td></tr><tr><td>158</td><td><code><pre>        // This corresponds to our formatting of the date with respect to go's canonical date</pre></code></td></tr><tr><td>159</td><td><code><pre>        const shortForm = "2006-1-2"</pre></code></td></tr><tr><td>160</td><td><code><pre>        dates = strings.Split(dateRange, "...")</pre></code></td></tr><tr><td>161</td><td><code><pre>        if len(dates) == 2 {</pre></code></td></tr><tr><td>162</td><td><code><pre></pre></code></td></tr><tr><td>163</td><td><code><pre>                startDate, err := time.Parse(shortForm, dates[0])</pre></code></td></tr><tr><td>164</td><td><code><pre>                if err != nil {</pre></code></td></tr><tr><td>165</td><td><code><pre>                        return nil, errors.New(fmt.Sprintf(timeRangeError, dateRange))</pre></code></td></tr><tr><td>166</td><td><code><pre>                }</pre></code></td></tr><tr><td>167</td><td><code><pre>                endDate, err := time.Parse(shortForm, dates[1])</pre></code></td></tr><tr><td>168</td><td><code><pre>                if err != nil {</pre></code></td></tr><tr><td>169</td><td><code><pre>                        return nil, errors.New(fmt.Sprintf(timeRangeError, dateRange))</pre></code></td></tr><tr><td>170</td><td><code><pre>                }</pre></code></td></tr><tr><td>171</td><td><code><pre>                if endDate.Unix() <= startDate.Unix() {</pre></code></td></tr><tr><td>172</td><td><code><pre>                        return nil, errors.New("Invalid date range: " + dateRange + ". End date must be after start date.")</pre></code></td></tr><tr><td>173</td><td><code><pre>                }</pre></code></td></tr><tr><td>174</td><td><code><pre>        } else {</pre></code></td></tr><tr><td>175</td><td><code><pre>                _, err := time.Parse(shortForm, dateRange)</pre></code></td></tr><tr><td>176</td><td><code><pre>                if err != nil {</pre></code></td></tr><tr><td>177</td><td><code><pre>                        return nil, errors.New(fmt.Sprintf(timeRangeError, dateRange))</pre></code></td></tr><tr><td>178</td><td><code><pre>                }</pre></code></td></tr><tr><td>179</td><td><code><pre>        }</pre></code></td></tr><tr><td>180</td><td><code><pre>        return dates, nil</pre></code></td></tr><tr><td>181</td><td><code><pre>}</pre></code></td></tr></table>
+
+<div class="funcname" id="fn_ValidateV2Drilldowns">func ValidateV2Drilldowns</div><div class="info"><a href="#s_fn_ValidateV2Drilldowns">Back</a><p>In <code>/Users/repos/goApp/src/helpers/validator.go</code>:</p></div><table class="listing">
+<tr><td>121</td><td><code><pre>func ValidateV2Drilldowns(dimensions []string, drilldowns []string) error {</pre></code></td></tr><tr><td>122</td><td><code><pre>        if len(drilldowns) == 0 {</pre></code></td></tr><tr><td>123</td><td><code><pre>                return nil</pre></code></td></tr><tr><td>124</td><td><code><pre>        }</pre></code></td></tr><tr><td>125</td><td><code><pre>        if len(drilldowns) > len(dimensions) {</pre></code></td></tr><tr><td>126</td><td><code><pre>                return errors.New("Number of drilldowns cannot be more than number of dimensions")</pre></code></td></tr><tr><td>127</td><td><code><pre>        }</pre></code></td></tr><tr><td>128</td><td><code><pre>        expandedDimensions := new(dimensionType)</pre></code></td></tr><tr><td>129</td><td><code><pre>        for i := 0; i <= 2; i++ {</pre></code></td></tr><tr><td>130</td><td><code><pre>                if i < len(dimensions) {</pre></code></td></tr><tr><td>131</td><td><code><pre>                        expandedDimensions[i] = dimensions[i]</pre></code></td></tr><tr><td>132</td><td><code><pre>                }</pre></code></td></tr><tr><td>133</td><td><code><pre>        }</pre></code></td></tr><tr><td>134</td><td><code><pre>        if V2LimitedDrilldowns[*expandedDimensions] && len(dimensions) == len(drilldowns) {</pre></code></td></tr><tr><td>135</td><td><code><pre>                dimensionString := strings.Join(dimensions, "->")</pre></code></td></tr><tr><td>136</td><td><code><pre>                return errors.New("Invalid drilldown element for " + dimensionString)</pre></code></td></tr><tr><td>137</td><td><code><pre>        }</pre></code></td></tr><tr><td>138</td><td><code><pre>        return nil</pre></code></td></tr><tr><td>139</td><td><code><pre>}</pre></code></td></tr></table>
+
+<div class="funcname" id="fn_FormatPerformanceResults">func FormatPerformanceResults</div><div class="info"><a href="#s_fn_FormatPerformanceResults">Back</a><p>In <code>/Users/repos/goApp/src/helpers/format_results.go</code>:</p></div><table class="listing">
+<tr><td>28</td><td><code><pre>func FormatPerformanceResults(serverResults []map[string]string) (MinervaResult, error) {</pre></code></td></tr><tr><td>29</td><td><code><pre>        result := MinervaResult{</pre></code></td></tr><tr><td>30</td><td><code><pre>                Results: []OuterResult{},</pre></code></td></tr><tr><td>31</td><td><code><pre>        }</pre></code></td></tr><tr><td>32</td><td><code><pre>        for _, keyValue := range serverResults {</pre></code></td></tr><tr><td>33</td><td><code><pre>                for groupBy, stringMetrics := range keyValue {</pre></code></td></tr><tr><td>34</td><td><code><pre>                        intMetrics := make([]int64, 2)</pre></code></td></tr><tr><td>35</td><td><code><pre>                        for index, sum := range strings.Split(stringMetrics, ",") {</pre></code></td></tr><tr><td>36</td><td><code><pre>                                intSum, err := strconv.ParseInt(sum, 10, 64)</pre></code></td></tr><tr><td>37</td><td><code><pre>                                intMetrics[index] = intSum</pre></code></td></tr><tr><td>38</td><td><code><pre>                                if err != nil {</pre></code></td></tr><tr><td>39</td><td><code><pre>                                        return result, err</pre></code></td></tr><tr><td>40</td><td><code><pre>                                }</pre></code></td></tr><tr><td>41</td><td><code><pre>                        }</pre></code></td></tr><tr><td>42</td><td><code><pre>                        result.Results = append(result.Results, OuterResult{</pre></code></td></tr><tr><td>43</td><td><code><pre>                                Name: groupBy,</pre></code></td></tr><tr><td>44</td><td><code><pre>                                Metrics: Metrics{</pre></code></td></tr><tr><td>45</td><td><code><pre>                                        Video: VideoMetric{</pre></code></td></tr><tr><td>46</td><td><code><pre>                                                Plays:    intMetrics[0],</pre></code></td></tr><tr><td>47</td><td><code><pre>                                                Displays: intMetrics[1],</pre></code></td></tr><tr><td>48</td><td><code><pre>                                        },</pre></code></td></tr><tr><td>49</td><td><code><pre>                                },</pre></code></td></tr><tr><td>50</td><td><code><pre>                        })</pre></code></td></tr><tr><td>51</td><td><code><pre>                }</pre></code></td></tr><tr><td>52</td><td><code><pre>        }</pre></code></td></tr><tr><td>53</td><td><code><pre>        return result, nil</pre></code></td></tr><tr><td>54</td><td><code><pre>}</pre></code></td></tr></table>
+
+<div class="funcname" id="fn_ValidateV2ReportType">func ValidateV2ReportType</div><div class="info"><a href="#s_fn_ValidateV2ReportType">Back</a><p>In <code>/Users/repos/goApp/src/helpers/validator.go</code>:</p></div><table class="listing">
+<tr><td>141</td><td><code><pre>func ValidateV2ReportType(reportType string) error {</pre></code></td></tr><tr><td>142</td><td><code><pre>        if reportType == "" {</pre></code></td></tr><tr><td>143</td><td><code><pre>                return errors.New("Empty report type")</pre></code></td></tr><tr><td>144</td><td><code><pre>        }</pre></code></td></tr><tr><td>145</td><td><code><pre>        if reportType == "delivery" {</pre></code></td></tr><tr><td>146</td><td><code><pre>                reportType = "cdn"</pre></code></td></tr><tr><td>147</td><td><code><pre>        }</pre></code></td></tr><tr><td>148</td><td><code><pre>        if !V2ReportTypes[reportType] {</pre></code></td></tr><tr><td>149</td><td><code><pre>                return errors.New("Unknown report type: " + reportType)</pre></code></td></tr><tr><td>150</td><td><code><pre>        }</pre></code></td></tr><tr><td>151</td><td><code><pre>        return nil</pre></code></td></tr><tr><td>152</td><td><code><pre>}</pre></code></td></tr></table>
+
+<div class="funcname" id="fn_ValidateV2Dimensions">func ValidateV2Dimensions</div><div class="info"><a href="#s_fn_ValidateV2Dimensions">Back</a><p>In <code>/Users/repos/goApp/src/helpers/validator.go</code>:</p></div><table class="listing">
+<tr><td>96</td><td><code><pre>func ValidateV2Dimensions(dimensions []string) error {</pre></code></td></tr><tr><td>97</td><td><code><pre>        if len(dimensions) == 0 {</pre></code></td></tr><tr><td>98</td><td><code><pre>                return errors.New("Empty dimension")</pre></code></td></tr><tr><td>99</td><td><code><pre>        }</pre></code></td></tr><tr><td>100</td><td><code><pre>        if len(dimensions) > 3 {</pre></code></td></tr><tr class="miss"><td>101</td><td><code><pre>                return errors.New("Too many dimensions")</pre></code></td></tr><tr><td>102</td><td><code><pre>        }</pre></code></td></tr><tr><td>103</td><td><code><pre>        expandedDimensions := new(dimensionType)</pre></code></td></tr><tr><td>104</td><td><code><pre>        for i := 0; i <= 2; i++ {</pre></code></td></tr><tr><td>105</td><td><code><pre>                if i < len(dimensions) {</pre></code></td></tr><tr><td>106</td><td><code><pre>                        if dimensions[i] == "" {</pre></code></td></tr><tr><td>107</td><td><code><pre>                                return errors.New("Empty dimension")</pre></code></td></tr><tr><td>108</td><td><code><pre>                        } else if !V2Dimensions[dimensions[i]] {</pre></code></td></tr><tr><td>109</td><td><code><pre>                                return errors.New("Unknown dimension: " + dimensions[i])</pre></code></td></tr><tr><td>110</td><td><code><pre>                        }</pre></code></td></tr><tr><td>111</td><td><code><pre>                        expandedDimensions[i] = dimensions[i]</pre></code></td></tr><tr><td>112</td><td><code><pre>                }</pre></code></td></tr><tr><td>113</td><td><code><pre>        }</pre></code></td></tr><tr><td>114</td><td><code><pre>        if len(dimensions) > 1 && !V2Drilldowns[*expandedDimensions] {</pre></code></td></tr><tr><td>115</td><td><code><pre>                dimensionString := strings.Join(dimensions, " => ")</pre></code></td></tr><tr><td>116</td><td><code><pre>                return errors.New("Invalid drilldown dimension: " + dimensionString)</pre></code></td></tr><tr><td>117</td><td><code><pre>        }</pre></code></td></tr><tr><td>118</td><td><code><pre>        return nil</pre></code></td></tr><tr><td>119</td><td><code><pre>}</pre></code></td></tr></table>
+
+<div class="funcname" id="fn_ValidatePcodeOrId">func ValidatePcodeOrId</div><div class="info"><a href="#s_fn_ValidatePcodeOrId">Back</a><p>In <code>/Users/repos/goApp/src/helpers/validator.go</code>:</p></div><table class="listing">
+<tr><td>75</td><td><code><pre>func ValidatePcodeOrId(pcodeOrId string) (int64, error) {</pre></code></td></tr><tr><td>76</td><td><code><pre>        var id int64</pre></code></td></tr><tr><td>77</td><td><code><pre>        var err error</pre></code></td></tr><tr><td>78</td><td><code><pre>        if match, err := regexp.MatchString("^[/d]*$", pcodeOrId); match && err == nil {</pre></code></td></tr><tr class="miss"><td>79</td><td><code><pre>                id, err = strconv.ParseInt(pcodeOrId, 10, 0)</pre></code></td></tr><tr><td>80</td><td><code><pre>        } else {</pre></code></td></tr><tr><td>81</td><td><code><pre>                id, err = embedcode.DecodeToId(pcodeOrId)</pre></code></td></tr><tr><td>82</td><td><code><pre>        }</pre></code></td></tr><tr><td>83</td><td><code><pre>        if id == 0 || err != nil {</pre></code></td></tr><tr><td>84</td><td><code><pre>                return 0, fmt.Errorf("No provider exists with the id %s.", pcodeOrId)</pre></code></td></tr><tr><td>85</td><td><code><pre>        }</pre></code></td></tr><tr><td>86</td><td><code><pre>        return id, nil</pre></code></td></tr><tr><td>87</td><td><code><pre>}</pre></code></td></tr></table>
+
+<div class="funcname" id="fn_AuthorizeAsset">func AuthorizeAsset</div><div class="info"><a href="#s_fn_AuthorizeAsset">Back</a><p>In <code>/Users/repos/goApp/src/helpers/authorization.go</code>:</p></div><table class="listing">
+<tr><td>49</td><td><code><pre>func AuthorizeAsset(embedcode string, r *http.Request) (error, int) {</pre></code></td></tr><tr class="miss"><td>50</td><td><code><pre>        api_key := r.URL.Query()["api_key"]</pre></code></td></tr><tr class="miss"><td>51</td><td><code><pre>        helios.SetAPIKey(api_key[0])</pre></code></td></tr><tr class="miss"><td>52</td><td><code><pre>        body, _ := helios.Get(fmt.Sprintf("assets/%s", embedcode))</pre></code></td></tr><tr class="miss"><td>53</td><td><code><pre>        if helios.LastResponse.StatusCode != 200 {</pre></code></td></tr><tr class="miss"><td>54</td><td><code><pre>                return fmt.Errorf(body), helios.LastResponse.StatusCode</pre></code></td></tr><tr><td>55</td><td><code><pre>        }</pre></code></td></tr><tr class="miss"><td>56</td><td><code><pre>        return nil, 0</pre></code></td></tr><tr><td>57</td><td><code><pre>}</pre></code></td></tr></table>
+
+<div class="funcname" id="fn_PcodeFromParams">func PcodeFromParams</div><div class="info"><a href="#s_fn_PcodeFromParams">Back</a><p>In <code>/Users/repos/goApp/src/helpers/authorization.go</code>:</p></div><table class="listing">
+<tr><td>37</td><td><code><pre>func PcodeFromParams(r *http.Request) string {</pre></code></td></tr><tr class="miss"><td>38</td><td><code><pre>        api_key := r.URL.Query()["api_key"]</pre></code></td></tr><tr class="miss"><td>39</td><td><code><pre>        helios.SetAPIKey(api_key[0])</pre></code></td></tr><tr><td>40</td><td><code><pre>        // TODO: how to handle this error. if helios is intermittently down</pre></code></td></tr><tr><td>41</td><td><code><pre>        // retry here maybe?</pre></code></td></tr><tr class="miss"><td>42</td><td><code><pre>        jsonBody, _ := helios.GetJson("provider")</pre></code></td></tr><tr class="miss"><td>43</td><td><code><pre>        if pcode, ok := jsonBody["pcode"]; ok {</pre></code></td></tr><tr class="miss"><td>44</td><td><code><pre>                return pcode.(string)</pre></code></td></tr><tr><td>45</td><td><code><pre>        }</pre></code></td></tr><tr class="miss"><td>46</td><td><code><pre>        return ""</pre></code></td></tr><tr><td>47</td><td><code><pre>}</pre></code></td></tr></table>
+
+<div class="funcname" id="fn_ApiKeyCheck">func ApiKeyCheck</div><div class="info"><a href="#s_fn_ApiKeyCheck">Back</a><p>In <code>/Users/repos/goApp/src/helpers/authorization.go</code>:</p></div><table class="listing">
+<tr><td>26</td><td><code><pre>func ApiKeyCheck(w http.ResponseWriter, r *http.Request) bool {</pre></code></td></tr><tr class="miss"><td>27</td><td><code><pre>        if unsignedPaths[r.URL.Path] {</pre></code></td></tr><tr class="miss"><td>28</td><td><code><pre>                return true</pre></code></td></tr><tr><td>29</td><td><code><pre>        }</pre></code></td></tr><tr class="miss"><td>30</td><td><code><pre>        if api_key, ok := r.URL.Query()["api_key"]; ok && len(api_key) > 0 {</pre></code></td></tr><tr class="miss"><td>31</td><td><code><pre>                return true</pre></code></td></tr><tr><td>32</td><td><code><pre>        }</pre></code></td></tr><tr class="miss"><td>33</td><td><code><pre>        http.Error(w, JsonError(fmt.Errorf("Provide a pcode, api_key or provider_id")), http.StatusForbidden)</pre></code></td></tr><tr class="miss"><td>34</td><td><code><pre>        return false</pre></code></td></tr><tr><td>35</td><td><code><pre>}</pre></code></td></tr></table>
+
+<div class="funcname" id="fn_SuperuserCheck">func SuperuserCheck</div><div class="info"><a href="#s_fn_SuperuserCheck">Back</a><p>In <code>/Users/repos/goApp/src/helpers/authorization.go</code>:</p></div><table class="listing">
+<tr><td>15</td><td><code><pre>func SuperuserCheck(w http.ResponseWriter, r *http.Request) bool {</pre></code></td></tr><tr class="miss"><td>16</td><td><code><pre>        if matched, err := regexp.MatchString("^/analytics/reports/provider", r.URL.Path); matched && err == nil {</pre></code></td></tr><tr><td>17</td><td><code><pre>                // since minerva is behind gatekeeper we just need to check headers here</pre></code></td></tr><tr class="miss"><td>18</td><td><code><pre>                if r.Header.Get("User-Permission") != "test" {</pre></code></td></tr><tr class="miss"><td>19</td><td><code><pre>                        http.Error(w, JsonError(fmt.Errorf("Not authorized")), http.StatusUnauthorized)</pre></code></td></tr><tr class="miss"><td>20</td><td><code><pre>                        return false</pre></code></td></tr><tr><td>21</td><td><code><pre>                }</pre></code></td></tr><tr><td>22</td><td><code><pre>        }</pre></code></td></tr><tr class="miss"><td>23</td><td><code><pre>        return true</pre></code></td></tr><tr><td>24</td><td><code><pre>}</pre></code></td></tr></table>
+
+<div class="funcname" id="fn_ValidateV2Category">func ValidateV2Category</div><div class="info"><a href="#s_fn_ValidateV2Category">Back</a><p>In <code>/Users/repos/goApp/src/helpers/validator.go</code>:</p></div><table class="listing">
+<tr><td>89</td><td><code><pre>func ValidateV2Category(category string) error {</pre></code></td></tr><tr class="miss"><td>90</td><td><code><pre>        if !V2Categories[category] {</pre></code></td></tr><tr class="miss"><td>91</td><td><code><pre>                return errors.New("Unknown report category: " + category)</pre></code></td></tr><tr><td>92</td><td><code><pre>        }</pre></code></td></tr><tr class="miss"><td>93</td><td><code><pre>        return nil</pre></code></td></tr><tr><td>94</td><td><code><pre>}</pre></code></td></tr></table>
+
+<div class="funcname" id="fn_JsonError">func JsonError</div><div class="info"><a href="#s_fn_JsonError">Back</a><p>In <code>/Users/repos/goApp/src/helpers/format_results.go</code>:</p></div><table class="listing">
+<tr><td>56</td><td><code><pre>func JsonError(e error) string {</pre></code></td></tr><tr class="miss"><td>57</td><td><code><pre>        errorMessage, _ := json.Marshal(map[string]string{"message": e.Error()})</pre></code></td></tr><tr class="miss"><td>58</td><td><code><pre>        return string(errorMessage)</pre></code></td></tr><tr><td>59</td><td><code><pre>}</pre></code></td></tr></table>
+<script type="text/javascript">
+document.getElementById("totalcov").textContent = "69.39%"
+</script>
+<!-- Can be parsed by external script
+PACKAGE:helpers DONE:69.39
+-->
+
+    </body>
+</html>
+<html>
+    <head>
+        <title>Coverage Report</title>
+        
+        <style type="text/css">
+            body { background-color: #fff; }
+            table {
+                margin-left: 10px;
+                border-collapse: collapse;
+            }
+            td { 
+                background-color: #fff; 
+                padding: 2px;
+            }
+            table.overview td {
+                padding-right: 20px;
+            }
+            td.percent, td.linecount { text-align: right; }
+            div.package, #totalcov { 
+                position: fixed;
+                color: #fff;
+                background-color: #375eab; 
+                font-size: 16px;
+                font-weight: bold;
+                padding: 10px;
+                border-radius: 5px 5px 5px 5px;
+            }
+            div.package, #totalcov { 
+                float: right; 
+                right: 10px;
+            }
+            #totalcov { 
+                background-color: #fff;
+                color: #000;
+                border: 1px solid #375eab;
+                clear: both;
+            }
+            div.package {
+                top: 10px;
+            }
+            #doctitle { 
+                background-color: #fff; 
+                font-size: 24px;
+                margin-top: 20px;
+                margin-left: 10px;
+                color: #375eab;
+                font-weight: bold;
+            }
+            #about {
+                margin-left: 18px;
+                font-size: 10px;
+            }
+            table tr:last-child td {
+                font-weight: bold;
+            }
+            .functitle, .funcname { 
+                text-align: center; 
+                font-size: 20px; 
+                font-weight: bold; 
+                color: 375eab; 
+            }
+            .funcname {
+                text-align: left;
+                margin-top: 20px;
+                margin-left: 10px;
+                margin-bottom: 20px;
+                padding: 2px 5px 5px;
+                background-color: #e0ebf5;
+            }
+            table.listing {
+                margin-left: 10px;
+            }
+            table.listing td {
+                padding: 0px;
+                font-size: 12px;
+                background-color: #eee; 
+                vertical-align: top;
+                padding-left: 10px;
+                border-bottom: 1px solid #fff;
+            }
+            table.listing td:first-child {
+                text-align: right;
+                font-weight: bold;
+                vertical-align: center;
+            }
+            table.listing tr.miss td {
+                background-color: #FFBBB8;
+            }
+            table.listing tr:last-child td {
+                font-weight: normal;
+                color: #000;
+            }
+            table.listing tr:last-child td:first-child {
+                font-weight: bold;
+            }
+            .info {
+                margin-left: 10px;
+            }
+            .info code {
+            }
+            pre { margin: 1px; }
+            pre.cmd { 
+                background-color: #e9e9e9;
+                border-radius: 5px 5px 5px 5px;
+                padding: 10px;
+                margin: 20px;
+                line-height: 18px;
+                font-size; 14px;
+            }
+            a { 
+                text-decoration: none; 
+                color: #375eab;
+            }
+            a:hover { text-decoration: underline; }
+            p { margin-left: 10px; }
+        </style>
+        
+    </head>
+    <body>
+        <div id="doctitle">Coverage Report</div>
+    <div id="about">Generated on 31 Jul 13 16:41 -0700 with <a href="https://github.com/matm/gocov-html">gocov-html</a></div><div class="package">server</div>
+<div id="totalcov">server</div>
+<div class="funcname">Overview</div><p>This is a coverage report created after analysis of the <code>server</code> package. It 
+        has been generated with the following command:</p><pre class="cmd">gocov test server | gocov-html</pre>        <p>Here are the stats. Please select a function name to view its implementation and see what's left for testing.</p><table class="overview">
+<tr id="s_fn_serverClient.createJsonConfig"><td><code><a href="#fn_serverClient.createJsonConfig">serverClient.createJsonConfig(...)</a></code></td><td><code>server/server.go</code></td><td class="percent"><code>100.00%</code></td><td class="linecount"><code>6/6</code></td></tr>
+<tr id="s_fn_serverClient.RunQuery"><td><code><a href="#fn_serverClient.RunQuery">serverClient.RunQuery(...)</a></code></td><td><code>server/server.go</code></td><td class="percent"><code>100.00%</code></td><td class="linecount"><code>5/5</code></td></tr>
+<tr id="s_fn_init"><td><code><a href="#fn_init">init(...)</a></code></td><td><code>server/server.go</code></td><td class="percent"><code>100.00%</code></td><td class="linecount"><code>2/2</code></td></tr>
+<tr id="s_fn_NewserverClient"><td><code><a href="#fn_NewserverClient">NewserverClient(...)</a></code></td><td><code>server/server.go</code></td><td class="percent"><code>100.00%</code></td><td class="linecount"><code>1/1</code></td></tr>
+<tr id="s_fn_serverClient.runJob"><td><code><a href="#fn_serverClient.runJob">serverClient.runJob(...)</a></code></td><td><code>server/server.go</code></td><td class="percent"><code>82.76%</code></td><td class="linecount"><code>24/29</code></td></tr>
+<tr id="s_fn_serverClient.jsonResponse"><td><code><a href="#fn_serverClient.jsonResponse">serverClient.jsonResponse(...)</a></code></td><td><code>server/server.go</code></td><td class="percent"><code>80.00%</code></td><td class="linecount"><code>8/10</code></td></tr>
+<tr id="s_fn_serverClient.createDimensionsConfig"><td><code><a href="#fn_serverClient.createDimensionsConfig">serverClient.createDimensionsConfig(...)</a></code></td><td><code>server/server.go</code></td><td class="percent"><code>55.56%</code></td><td class="linecount"><code>5/9</code></td></tr>
+<tr><td colspan="2"><code>server</code></td><td class="percent"><code>82.26%</code></td><td class="linecount"><code>51/62</code></td></tr>
+</table>
+
+<div class="funcname" id="fn_serverClient.createJsonConfig">func serverClient.createJsonConfig</div><div class="info"><a href="#s_fn_serverClient.createJsonConfig">Back</a><p>In <code>/Users/repos/goApp/src/server/server.go</code>:</p></div><table class="listing">
+<tr><td>115</td><td><code><pre>func (c *serverClient) createJsonConfig(params QueryParams) ([]byte, error) {</pre></code></td></tr><tr><td>116</td><td><code><pre>        if len(params.ProviderId) < 1 {</pre></code></td></tr><tr><td>117</td><td><code><pre>                return nil, fmt.Errorf("Invalid QueryParams: missing ProviderId")</pre></code></td></tr><tr><td>118</td><td><code><pre>        }</pre></code></td></tr><tr><td>119</td><td><code><pre>        if len(params.DatetimeRange) < 1 {</pre></code></td></tr><tr><td>120</td><td><code><pre>                return nil, fmt.Errorf("Invalid QueryParams: missing Datetime Range")</pre></code></td></tr><tr><td>121</td><td><code><pre>        }</pre></code></td></tr><tr><td>122</td><td><code><pre>        rookeryConfig := &RookeryConfig{</pre></code></td></tr><tr><td>123</td><td><code><pre>                Rookery: JobConfig{</pre></code></td></tr><tr><td>124</td><td><code><pre>                        Materialized: MaterializedConfig{</pre></code></td></tr><tr><td>125</td><td><code><pre>                                View: ViewConfig{</pre></code></td></tr><tr><td>126</td><td><code><pre>                                        Dimensions:     MaterializedViewDimensions,</pre></code></td></tr><tr><td>127</td><td><code><pre>                                        CacheNamespace: CacheNamespace,</pre></code></td></tr><tr><td>128</td><td><code><pre>                                        Query: QueryConfig{</pre></code></td></tr><tr><td>129</td><td><code><pre>                                                Dimension: c.createDimensionsConfig(params),</pre></code></td></tr><tr><td>130</td><td><code><pre>                                                TopK:      0,</pre></code></td></tr><tr><td>131</td><td><code><pre>                                                Metric:    params.Events,</pre></code></td></tr><tr><td>132</td><td><code><pre>                                        },</pre></code></td></tr><tr><td>133</td><td><code><pre>                                },</pre></code></td></tr><tr><td>134</td><td><code><pre>                        },</pre></code></td></tr><tr><td>135</td><td><code><pre>                        Events: EventsConfig{</pre></code></td></tr><tr><td>136</td><td><code><pre>                                StartTime: params.DatetimeRange[0],</pre></code></td></tr><tr><td>137</td><td><code><pre>                                EndTime:   params.DatetimeRange[len(params.DatetimeRange)-1],</pre></code></td></tr><tr><td>138</td><td><code><pre>                                Duration:  "min5",</pre></code></td></tr><tr><td>139</td><td><code><pre>                        },</pre></code></td></tr><tr><td>140</td><td><code><pre>                },</pre></code></td></tr><tr><td>141</td><td><code><pre>        }</pre></code></td></tr><tr><td>142</td><td><code><pre>        return json.Marshal(rookeryConfig)</pre></code></td></tr><tr><td>143</td><td><code><pre>}</pre></code></td></tr></table>
+
+<div class="funcname" id="fn_serverClient.RunQuery">func serverClient.RunQuery</div><div class="info"><a href="#s_fn_serverClient.RunQuery">Back</a><p>In <code>/Users/repos/goApp/src/server/server.go</code>:</p></div><table class="listing">
+<tr><td>79</td><td><code><pre>func (c *serverClient) RunQuery(params QueryParams) ([]map[string]string, error) {</pre></code></td></tr><tr><td>80</td><td><code><pre>        jsonConfig, err := c.createJsonConfig(params)</pre></code></td></tr><tr><td>81</td><td><code><pre>        if err != nil {</pre></code></td></tr><tr><td>82</td><td><code><pre>                return nil, err</pre></code></td></tr><tr><td>83</td><td><code><pre>        }</pre></code></td></tr><tr><td>84</td><td><code><pre></pre></code></td></tr><tr><td>85</td><td><code><pre>        resp, err := c.runJob(jsonConfig)</pre></code></td></tr><tr><td>86</td><td><code><pre>        return resp, err</pre></code></td></tr><tr><td>87</td><td><code><pre>}</pre></code></td></tr></table>
+
+<div class="funcname" id="fn_init">func init</div><div class="info"><a href="#s_fn_init">Back</a><p>In <code>/Users/repos/goApp/src/server/server.go</code>:</p></div><table class="listing">
+<tr><td>73</td><td><code><pre>func init() {</pre></code></td></tr><tr><td>74</td><td><code><pre>        for i, d := range MaterializedViewDimensions {</pre></code></td></tr><tr><td>75</td><td><code><pre>                DimensionIndex[d] = i</pre></code></td></tr><tr><td>76</td><td><code><pre>        }</pre></code></td></tr><tr><td>77</td><td><code><pre>}</pre></code></td></tr></table>
+
+<div class="funcname" id="fn_NewserverClient">func NewserverClient</div><div class="info"><a href="#s_fn_NewserverClient">Back</a><p>In <code>/Users/repos/goApp/src/server/server.go</code>:</p></div><table class="listing">
+<tr><td>89</td><td><code><pre>func NewserverClient(server string) *serverClient {</pre></code></td></tr><tr><td>90</td><td><code><pre>        return &serverClient{</pre></code></td></tr><tr><td>91</td><td><code><pre>                Server:           server,</pre></code></td></tr><tr><td>92</td><td><code><pre>                StartJobRoute:    "http://" + server + "/startjob/datacube/test.cnd.AggregateMetricsJob?context=olap-demo",</pre></code></td></tr><tr><td>93</td><td><code><pre>                FetchResultRoute: "http://" + server + "/jobresult/",</pre></code></td></tr><tr><td>94</td><td><code><pre>        }</pre></code></td></tr><tr><td>95</td><td><code><pre>}</pre></code></td></tr></table>
+
+<div class="funcname" id="fn_serverClient.runJob">func serverClient.runJob</div><div class="info"><a href="#s_fn_serverClient.runJob">Back</a><p>In <code>/Users/repos/goApp/src/server/server.go</code>:</p></div><table class="listing">
+<tr><td>160</td><td><code><pre>func (c *serverClient) runJob(config []byte) ([]map[string]string, error) {</pre></code></td></tr><tr><td>161</td><td><code><pre>        log.Printf("Submitting config: \n%v", string(config))</pre></code></td></tr><tr><td>162</td><td><code><pre>        resp, err := http.Post(c.StartJobRoute, "application/json", bytes.NewReader(config))</pre></code></td></tr><tr><td>163</td><td><code><pre>        if err != nil {</pre></code></td></tr><tr class="miss"><td>164</td><td><code><pre>                return nil, err</pre></code></td></tr><tr><td>165</td><td><code><pre>        }</pre></code></td></tr><tr><td>166</td><td><code><pre>        body, err := ioutil.ReadAll(resp.Body)</pre></code></td></tr><tr><td>167</td><td><code><pre>        if err != nil {</pre></code></td></tr><tr class="miss"><td>168</td><td><code><pre>                return nil, err</pre></code></td></tr><tr><td>169</td><td><code><pre>        }</pre></code></td></tr><tr><td>170</td><td><code><pre>        resp.Body.Close()</pre></code></td></tr><tr><td>171</td><td><code><pre>        if resp.StatusCode > 202 {</pre></code></td></tr><tr class="miss"><td>172</td><td><code><pre>                return nil, fmt.Errorf("Error submitting Job. Received status: %v, Message is %v", resp.Status, string(body))</pre></code></td></tr><tr><td>173</td><td><code><pre>        }</pre></code></td></tr><tr><td>174</td><td><code><pre>        // TODO: handle the special case of 503. job server busy now but try again</pre></code></td></tr><tr><td>175</td><td><code><pre>        url := c.FetchResultRoute + string(body)</pre></code></td></tr><tr><td>176</td><td><code><pre>        log.Println("Job Successfully Submitted. Check Result at " + url)</pre></code></td></tr><tr><td>177</td><td><code><pre>        respChannel := make(chan []map[string]string, 1)</pre></code></td></tr><tr><td>178</td><td><code><pre>        errChannel := make(chan error, 1)</pre></code></td></tr><tr><td>179</td><td><code><pre>        go func() {</pre></code></td></tr><tr><td>180</td><td><code><pre>                status, err := c.jsonResponse(url)</pre></code></td></tr><tr><td>181</td><td><code><pre>                for err == nil && len(status) > 0 && status[0]["status"] == "RUNNING" {</pre></code></td></tr><tr><td>182</td><td><code><pre>                        log.Println(".")</pre></code></td></tr><tr><td>183</td><td><code><pre>                        time.Sleep(250 * time.Millisecond)</pre></code></td></tr><tr><td>184</td><td><code><pre>                        status, err = c.jsonResponse(url)</pre></code></td></tr><tr><td>185</td><td><code><pre>                }</pre></code></td></tr><tr><td>186</td><td><code><pre>                respChannel <- status</pre></code></td></tr><tr><td>187</td><td><code><pre>                errChannel <- err</pre></code></td></tr><tr><td>188</td><td><code><pre>        }()</pre></code></td></tr><tr><td>189</td><td><code><pre>        select {</pre></code></td></tr><tr><td>190</td><td><code><pre>        case resp := <-respChannel:</pre></code></td></tr><tr><td>191</td><td><code><pre>                err := <-errChannel</pre></code></td></tr><tr><td>192</td><td><code><pre>                if status, ok := resp[0]["STATUS"]; ok && status == "OK" {</pre></code></td></tr><tr><td>193</td><td><code><pre>                        return resp[1:], err</pre></code></td></tr><tr><td>194</td><td><code><pre>                } else {</pre></code></td></tr><tr class="miss"><td>195</td><td><code><pre>                        return nil, fmt.Errorf("Bad response from server: %v", resp)</pre></code></td></tr><tr><td>196</td><td><code><pre>                }</pre></code></td></tr><tr><td>197</td><td><code><pre>        case <-time.After(3 * time.Second): // timeout after 3 sec</pre></code></td></tr><tr><td>198</td><td><code><pre>                return nil, fmt.Errorf("server Timed Out")</pre></code></td></tr><tr><td>199</td><td><code><pre>        }</pre></code></td></tr><tr class="miss"><td>200</td><td><code><pre>        return nil, nil // Needed to make compiler happy</pre></code></td></tr><tr><td>201</td><td><code><pre>}</pre></code></td></tr></table>
+
+<div class="funcname" id="fn_serverClient.jsonResponse">func serverClient.jsonResponse</div><div class="info"><a href="#s_fn_serverClient.jsonResponse">Back</a><p>In <code>/Users/repos/goApp/src/server/server.go</code>:</p></div><table class="listing">
+<tr><td>145</td><td><code><pre>func (c *serverClient) jsonResponse(url string) ([]map[string]string, error) {</pre></code></td></tr><tr><td>146</td><td><code><pre>        status := make([]map[string]string, 1)</pre></code></td></tr><tr><td>147</td><td><code><pre>        resp, err := http.Get(url)</pre></code></td></tr><tr><td>148</td><td><code><pre>        if err != nil {</pre></code></td></tr><tr class="miss"><td>149</td><td><code><pre>                return nil, err</pre></code></td></tr><tr><td>150</td><td><code><pre>        }</pre></code></td></tr><tr><td>151</td><td><code><pre>        body, err := ioutil.ReadAll(resp.Body)</pre></code></td></tr><tr><td>152</td><td><code><pre>        resp.Body.Close()</pre></code></td></tr><tr><td>153</td><td><code><pre>        if resp.StatusCode > 202 {</pre></code></td></tr><tr class="miss"><td>154</td><td><code><pre>                return nil, fmt.Errorf("Error querying Job. Received status: %v, Message is %v", resp.Status, string(body))</pre></code></td></tr><tr><td>155</td><td><code><pre>        }</pre></code></td></tr><tr><td>156</td><td><code><pre>        json.Unmarshal(body, &status)</pre></code></td></tr><tr><td>157</td><td><code><pre>        return status, err</pre></code></td></tr><tr><td>158</td><td><code><pre>}</pre></code></td></tr></table>
+
+<div class="funcname" id="fn_serverClient.createDimensionsConfig">func serverClient.createDimensionsConfig</div><div class="info"><a href="#s_fn_serverClient.createDimensionsConfig">Back</a><p>In <code>/Users/repos/goApp/src/server/server.go</code>:</p></div><table class="listing">
+<tr><td>97</td><td><code><pre>func (c *serverClient) createDimensionsConfig(params QueryParams) DimensionConfig {</pre></code></td></tr><tr><td>98</td><td><code><pre>        filterBy := "0=" + params.ProviderId</pre></code></td></tr><tr><td>99</td><td><code><pre>        groupBy := []int{0}</pre></code></td></tr><tr><td>100</td><td><code><pre>        numFilters := len(params.Drilldowns)</pre></code></td></tr><tr><td>101</td><td><code><pre>        for i, dimension := range params.Dimensions {</pre></code></td></tr><tr class="miss"><td>102</td><td><code><pre>                if dimensionIndex, ok := DimensionIndex[dimension]; ok {</pre></code></td></tr><tr class="miss"><td>103</td><td><code><pre>                        if i < numFilters {</pre></code></td></tr><tr class="miss"><td>104</td><td><code><pre>                                filterBy += fmt.Sprintf(",%d=%s", i+1, params.Drilldowns[i])</pre></code></td></tr><tr><td>105</td><td><code><pre>                        }</pre></code></td></tr><tr class="miss"><td>106</td><td><code><pre>                        groupBy = append(groupBy, dimensionIndex)</pre></code></td></tr><tr><td>107</td><td><code><pre>                }</pre></code></td></tr><tr><td>108</td><td><code><pre>        }</pre></code></td></tr><tr><td>109</td><td><code><pre>        return DimensionConfig{</pre></code></td></tr><tr><td>110</td><td><code><pre>                Filter:  filterBy,</pre></code></td></tr><tr><td>111</td><td><code><pre>                GroupBy: groupBy,</pre></code></td></tr><tr><td>112</td><td><code><pre>        }</pre></code></td></tr><tr><td>113</td><td><code><pre>}</pre></code></td></tr></table>
+<script type="text/javascript">
+document.getElementById("totalcov").textContent = "82.26%"
+</script>
+<!-- Can be parsed by external script
+PACKAGE:server DONE:82.26
+-->
+
+    </body>
+</html>

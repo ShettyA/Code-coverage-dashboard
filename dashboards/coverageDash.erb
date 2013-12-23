@@ -1,0 +1,29 @@
+<script type='text/javascript'>
+$(function() {
+  Dashing.gridsterLayout('[{"col":1,"row":1,"size_x":1,"size_y":2},{"col":3,"row":1,"size_x":1,"size_y":2},{"col":2,"row":1,"size_x":1,"size_y":1},{"col":2,"row":2,"size_x":1,"size_y":1}]')
+});
+</script>
+
+<% content_for :title do %>Code Coverage Dashboard<% end %>
+<div class="gridster">
+  <ul>
+    <li class="mainList" data-row="1" data-col="1" data-sizex="1" data-sizey="2">
+      <div data-id="scct" data-view="List" data-unordered="true" data-title="Scala 'scct' Coverage" data-moreinfo="Using SCCT coverage tool" onclick="location.href='http://mtkopone.github.io/scct/';">&nbsp;</div>
+    </body>
+    </li>
+
+    <li class="mainList" data-row="1" data-col="1" data-sizex="1" data-sizey="2">
+      <div data-id="jacoco" data-view="List" data-unordered="true" data-title="Scala 'jacoco' Coverage" data-moreinfo="Using Jacoco coverage tool" onclick="location.href='http://bitbucket.org/jmhofer/jacoco4sbt';">&nbsp;</div>
+    </body>
+    </li>
+
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="go" data-view="List" data-unordered="true" data-title="GO 'gocov' based Coverage" data-moreinfo="Using Gocov tool" onclick="location.href='http://github.com/axw/gocov';">&nbsp;</div>
+    </li>
+
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="istanbul" data-view="List" data-unordered="true" data-title="Javascript 'instanbul' Coverage" data-moreinfo="Using istanbul for jasmine specs" onclick="location.href='http://github.com/maenu/grunt-template-jasmine-istanbul';">&nbsp;</div>
+    </li>
+  </ul>
+  <center><div style="font-size: 12px">Dashboard is built using the 'Dashing'.Click for more details.<a href="http://shopify.github.io/dashing//"><mark>"Dashing"</mark></a></div></center>
+</div>
